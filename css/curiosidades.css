@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #cde6f8;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 30px;
+}
+
+header {
+    background-color: #96cce3;
+    color: #071f3a;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 12px;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 16px;
+}
