@@ -33,3 +33,15 @@ header p {
     flex-wrap: nowrap;
     gap: 16px;
 }
+
+a {
+    background-color:#5e86aca4;
+    padding: 5px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #071f3a;
+}
+
+a:hover {
+    background-color: #75a8d8a4;;
+}
