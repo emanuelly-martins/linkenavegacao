@@ -70,7 +70,7 @@ header p {
     background-color: #bce2f3;
 }
 
-a {
+#menu a {
     background-color:#5e86aca4;
     padding: 5px;
     border-radius: 8px;
@@ -78,7 +78,7 @@ a {
     color: #071f3a;
 }
 
-a:hover {
+#menu a:hover {
     background-color: #75a8d8a4;;
 }
 
@@ -86,4 +86,38 @@ a:hover {
     display: flex;
     gap: 16px;
     margin-top: 20px;
+}
+
+#destaque {
+    padding: 40px 60px;
+    color:#071f3a
+}
+
+#por-que-ler {
+    margin-bottom: 20px;
+}
+
+#por-que-ler p {
+    color: #356491;
+}
+
+#cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 16px;
+}
+
+.card {
+    background-color: white;
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.card h4 {
+    font-size: 18px;
 }
