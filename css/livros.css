@@ -33,7 +33,7 @@ header p {
     gap: 16px;
 }
 
-a {
+#menu a {
     background-color:#5e86aca4;
     padding: 5px;
     border-radius: 8px;
@@ -41,7 +41,7 @@ a {
     color: #071f3a;
 }
 
-a:hover {
+#menu a:hover {
     background-color: #75a8d8a4;;
 }
 
