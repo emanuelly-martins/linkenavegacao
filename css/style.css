@@ -17,7 +17,6 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
 }
 
 header p {
@@ -34,8 +33,8 @@ header p {
 }
 
 #introducao {
-    background-color: #96cce3;
-    color: #071f3a;
+    background-color: #071f3a;
+    color: #96cce3;
     display: flex;
     flex-direction: row;
     gap: 30px;
@@ -49,7 +48,7 @@ header p {
 }
 
 #texto {
-    color: black;
+    color: white;
 }
 
 #introducao img {
@@ -57,6 +56,18 @@ header p {
     height: 250px;
     border-radius: 20px;
     margin-bottom: 20px;
+}
+
+#introducao a {
+    background-color: #96cce3e1;
+    padding: 5px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #071f3a;
+}
+
+#introducao a:hover {
+    background-color: #bce2f3;
 }
 
 a {
