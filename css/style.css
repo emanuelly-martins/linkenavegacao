@@ -70,3 +70,9 @@ a {
 a:hover {
     background-color: #75a8d8a4;;
 }
+
+#botao {
+    display: flex;
+    gap: 16px;
+    margin-top: 20px;
+}
