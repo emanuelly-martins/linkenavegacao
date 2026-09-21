@@ -26,10 +26,15 @@ header p {
 #menu {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
     gap: 16px;
+    width: 33%;
+}
+
+#titulo {
+    width: 33%;
 }
 
 #introducao {
@@ -178,4 +183,21 @@ footer {
 
 #menu-final a:hover {
     background-color: #bce2f3;
+}
+
+#ir-para-destaque {
+    width: 33%;
+    text-align: right;
+}
+
+#ir-para-destaque a {
+    background-color:#5e86aca4;
+    padding: 5px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #071f3a;
+}
+
+#ir-para-destaque a:hover {
+    background-color: #75a8d8a4;
 }
