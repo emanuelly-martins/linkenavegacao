@@ -108,3 +108,37 @@ footer {
 #final hr {
     margin-bottom: 20px;
 }
+
+footer {
+    background-color: #071f3a;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer {
+    color: #96cce3;
+}
+
+#menu-final {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 16px;
+}
+
+#menu-final a {
+    background-color: #96cce3e1;
+    padding: 5px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #071f3a;
+}
+
+#menu-final a:hover {
+    background-color: #bce2f3;
+}
