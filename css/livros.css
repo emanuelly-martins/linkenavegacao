@@ -17,7 +17,6 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
 }
 
 header p {
@@ -43,6 +42,24 @@ header p {
 
 #menu a:hover {
     background-color: #75a8d8a4;;
+}
+
+#introducao span {
+    color:#96cce3
+}
+#introducao {
+    background-color: #071f3a;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#introducao h2 {
+    font-size: 50px;
 }
 
 #livros {
