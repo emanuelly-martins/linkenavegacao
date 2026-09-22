@@ -102,14 +102,6 @@ header p {
 }
 
 footer {
-    margin-top: 20px;
-}
-
-#final hr {
-    margin-bottom: 20px;
-}
-
-footer {
     background-color: #071f3a;
     padding: 20px;
     display: flex;
