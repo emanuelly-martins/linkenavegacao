@@ -44,6 +44,54 @@ header p {
     background-color: #75a8d8a4;;
 }
 
+#introducao {
+    background-color: #071f3a;
+    color: white;
+    padding:  20px;
+}
+
+#introducao span {
+    color: #96cce3;
+}
+
+#curiosidades {
+    background-color: white;
+    color: #071f3a;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+#img-curiosidades {
+    width: 50%;
+    text-align: center;
+}
+
+#img-curiosidades img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+#cards {
+    width:50%;
+}
+
+#cards h2 {
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: #96cce38f;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
 footer {
     background-color: #071f3a;
     padding: 20px;
