@@ -60,21 +60,7 @@ header p {
     width: 500px;
     height: 250px;
     border-radius: 20px;
-    margin-bottom: 20px;
-}
-
-#botao-img {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-    flex-wrap: nowrap;
-    gap: 0;
-}
-
-#botao-img p {
-    width: 500px;
-    text-align: center;
+    margin-bottom: 10px;
 }
 
 #introducao a {
@@ -85,8 +71,12 @@ header p {
     color: #071f3a;
 }
 
-#introducao a:hover {
-    background-color: #bce2f3;
+#retangulo-img p {
+    background-color: #96cce3e1;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+    color: #071f3a;
 }
 
 #menu a {
@@ -97,10 +87,6 @@ header p {
     color: #071f3a;
 }
 
-#menu a:hover {
-    background-color: #75a8d8a4;
-}
-
 #botao {
     display: flex;
     gap: 16px;
@@ -108,7 +94,7 @@ header p {
 }
 
 #destaque {
-    padding: 40px 60px;
+    padding: 40px;
     color:#071f3a;
 }
 
@@ -161,10 +147,6 @@ header p {
     color: #071f3a;
 }
 
-#pagina-livros:hover{
-    background-color: #bce2f3;
-}
-
 footer {
     background-color: #071f3a;
     padding: 20px;
@@ -195,10 +177,6 @@ footer {
     color: #071f3a;
 }
 
-#menu-final a:hover {
-    background-color: #bce2f3;
-}
-
 #ir-para-destaque {
     width: 33%;
     text-align: right;
@@ -210,8 +188,4 @@ footer {
     border-radius: 8px;
     text-decoration: none;
     color: #071f3a;
-}
-
-#ir-para-destaque a:hover {
-    background-color: #75a8d8a4;
 }
