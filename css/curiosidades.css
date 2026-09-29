@@ -40,10 +40,6 @@ header p {
     color: #071f3a;
 }
 
-#menu a:hover {
-    background-color: #75a8d8a4;;
-}
-
 #introducao {
     background-color: #071f3a;
     color: white;
@@ -120,8 +116,4 @@ footer {
     border-radius: 8px;
     text-decoration: none;
     color: #071f3a;
-}
-
-#menu-final a:hover {
-    background-color: #bce2f3;
 }
